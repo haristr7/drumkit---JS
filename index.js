@@ -6,7 +6,7 @@ for(var i=0; i<=document.querySelectorAll(".drum").length; i++){
 }
 
 
-document.addEventListener("keydown", function(event) {
+document.addEventListener("onkeydown", function(event) {
     makesound(event.key);
     button_animation(event.key);
   });
